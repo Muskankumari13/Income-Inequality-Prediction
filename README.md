@@ -1,9 +1,9 @@
-## Income-Inequality-Prediction
-# Overview
+# Income-Inequality-Prediction
+## Overview
 
 Predicts whether an individual earns above or below a certain income limit using machine learning. Helps monitor income inequality for policymaking and research.
 
-# Dataset
+## Dataset
 
      43 columns including demographic, employment, and household features
 
@@ -11,7 +11,7 @@ Predicts whether an individual earns above or below a certain income limit using
 
      Contains missing values (NaN or "?")
 
-# Steps
+## Steps
 
     Data Cleaning: Remove ID, strip spaces, replace "?" with NaN, fill missing values
 
@@ -25,11 +25,11 @@ Predicts whether an individual earns above or below a certain income limit using
 
     Evaluation: F1-score
 
-# How to Run
+## How to Run
     pip install pandas numpy scikit-learn matplotlib
     python income_inequality_prediction.py
 
-# Results
+## Results
 
     F1-score: 0.975 
 
